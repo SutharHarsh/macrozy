@@ -1,0 +1,134 @@
+/* Macrozy brand system (Round 5): black and steel, with the three katoris as
+   the only colour. The site lives on black, just like the app.
+   Satoshi for the site, Poppins SemiBold for the wordmark, Plus Jakarta Sans
+   inside the phone. Hand-drawn Indian food is the illustration language. */
+:root {
+  color-scheme: dark;
+
+  /* neutrals (palette names in comments) */
+  --bg: #000000; /* Black: page background */
+  --surface: #111113; /* Surface: section bands, footer */
+  --card: #1c1c1e; /* Card: cards, inputs, chips */
+  --card-hover: #2c2c2e;
+  --steel: #b4bac1; /* Steel: the icon's tin, illustrations, icons */
+  --white: var(--surface);
+  --bg-2: var(--card);
+  --night: var(--surface);
+  --night-2: var(--card);
+  --night-3: #2c2c2e;
+
+  /* text: three levels, all AA on black and on cards */
+  --ink: #f5f5f7; /* Text */
+  --ink-2: #c7c7cc;
+  --ink-3: #a1a1a6; /* Text 2 */
+  --ink-4: #8a8a8e; /* Text 3 */
+  --on-ink: #000000;
+  --line: rgba(255, 255, 255, 0.1); /* Line ≈ #2C2C2E on black */
+  --line-2: rgba(255, 255, 255, 0.16);
+  --night-ink: var(--ink);
+  --night-ink-2: var(--ink-2);
+  --night-ink-3: var(--ink-3);
+  --night-line: var(--line);
+
+  /* button colour follows the o in the wordmark: fat */
+  --accent: #ffd600;
+  --accent-hover: #ffe14d;
+  --accent-ink: #ffd600;
+  --accent-night: #ffd600;
+  --accent-soft: #383000;
+  --on-accent: #000000;
+  --accent-grad: linear-gradient(180deg, #ffe14d 0%, #ffd600 100%);
+  --ring-grad: linear-gradient(120deg, #ffd600 0%, #ff9230 60%, #ff7a1a 100%);
+
+  /* macros: the three katoris. Only ever used to mean protein, carbs and fat. */
+  --protein: #ff9230;
+  --protein-ink: #ff9230;
+  --protein-tint: #3a2108;
+  --carbs: #30d158;
+  --carbs-ink: #30d158;
+  --carbs-tint: #0c3519;
+  --fat: #ffd600;
+  --fat-ink: #ffd600;
+  --fat-tint: #383000;
+  --fiber: #64d2ff;
+  --fiber-ink: #64d2ff;
+  --fiber-tint: #0a2c3a;
+  --flame: #ff8a3d;
+  --over: #ff453a;
+
+  /* light mode inks: press kits, docs, print */
+  --bg-light: #f6f6f3;
+  --text-light: #0b0b0c;
+  --protein-ink-light: #b35400;
+  --carbs-ink-light: #1a7a36;
+  --fat-ink-light: #806500;
+
+  /* the app (phone screens: black, exactly like the product) */
+  --app-bg: #000000;
+  --app-card-top: #1c1c1e;
+  --app-card-bot: #151517;
+  --app-surface: #1c1c1e;
+  --app-recess: #0b0b0c;
+  --app-raised: #1c1c1e;
+  --app-hair: rgba(255, 255, 255, 0.07);
+  --app-hair-2: rgba(255, 255, 255, 0.12);
+  --app-track: rgba(255, 255, 255, 0.08);
+  --app-ink: #f4f4f6;
+  --app-ink-2: #e6e6ea;
+  --app-ink-3: #9a9aa4;
+  --app-ink-4: #8a8a94;
+  --app-accent-2: #ffe14d;
+  --app-on-accent: #000000;
+
+  /* type */
+  --font: 'Satoshi', 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-app: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mark: 'Poppins', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --fs-hero: clamp(46px, min(6.6vw, 10.5vh), 96px);
+  --fs-display: clamp(38px, 5vw, 72px);
+  --fs-title: clamp(32px, 3.8vw, 54px);
+  --fs-story: clamp(30px, min(3.4vw, 6.2vh), 52px);
+  --fs-h3: clamp(22px, 2vw, 30px);
+  --fs-eyebrow: clamp(17px, 1.45vw, 21px);
+  --fs-lede: clamp(17px, 1.4vw, 21px);
+  --fs-body: 17px;
+  --fs-small: 14px;
+  --fs-label: 13px;
+  --fs-foot: 12px;
+
+  /* layout */
+  --max: 1180px;
+  --narrow: 820px;
+  --gutter: clamp(20px, 5vw, 64px);
+  --section: clamp(104px, 12vw, 168px);
+  --edge: max(var(--gutter), calc((100vw - var(--max)) / 2));
+
+  /* shape: big soft radii, flat dark cards */
+  --r-xl: 40px;
+  --r-lg: 30px;
+  --r-md: 20px;
+  --r-sm: 14px;
+  --r-xs: 8px;
+  --pill: 999px;
+  --shadow-card: 0 0 0 1px var(--line);
+  --shadow-float: 0 2px 6px rgba(0, 0, 0, 0.4), 0 22px 50px -24px rgba(0, 0, 0, 0.85), inset 0 0 0 1px var(--line);
+  --shadow-phone: 0 60px 100px -50px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --shadow-cta: 0 10px 24px -12px rgba(255, 214, 0, 0.45);
+
+  /* motion: app timings + one house curve */
+  --d1: 90ms;
+  --d2: 160ms;
+  --d3: 240ms;
+  --d4: 320ms;
+  --d5: 620ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-emph: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --z-canvas: 1;
+  --z-stage: 5;
+  --z-nav: 50;
+  --z-dock: 45;
+  --z-veil: 60;
+  --z-skip: 80;
+}

@@ -1,0 +1,142 @@
+{
+  "onion": {
+    "triangles": 10768,
+    "size_m": [
+      0.0705,
+      0.07,
+      0.0993
+    ],
+    "bytes": 338160,
+    "source": "nvidia/simready-assets/food_produce_onion_a01"
+  },
+  "tomato": {
+    "triangles": 9996,
+    "size_m": [
+      0.065,
+      0.0568,
+      0.0621
+    ],
+    "bytes": 307296,
+    "source": "nvidia/simready-assets/food_produce_tomato_a01"
+  },
+  "garlic": {
+    "triangles": 40462,
+    "size_m": [
+      0.0501,
+      0.0514,
+      0.0523
+    ],
+    "bytes": 1121764,
+    "source": "nvidia/simready-assets/food_produce_garlic_bulb_a01"
+  },
+  "potato": {
+    "triangles": 8994,
+    "size_m": [
+      0.0734,
+      0.0711,
+      0.0888
+    ],
+    "bytes": 334268,
+    "source": "nvidia/simready-assets/food_produce_potato_a01"
+  },
+  "baingan": {
+    "triangles": 1884,
+    "size_m": [
+      0.106,
+      0.1112,
+      0.2617
+    ],
+    "bytes": 136948,
+    "source": "nvidia/simready-assets/food_produce_eggplant_a01"
+  },
+  "karela": {
+    "triangles": 60894,
+    "size_m": [
+      0.2,
+      0.0394,
+      0.0371
+    ],
+    "bytes": 1499724,
+    "source": "nvidia/simready-assets/food_produce_bitterMelon_a01"
+  },
+  "lime": {
+    "triangles": 3992,
+    "size_m": [
+      0.0636,
+      0.0612,
+      0.0748
+    ],
+    "bytes": 216076,
+    "source": "nvidia/simready-assets/food_produce_lime_a01"
+  },
+  "mango": {
+    "triangles": 5182,
+    "size_m": [
+      0.1121,
+      0.0987,
+      0.1508
+    ],
+    "bytes": 196392,
+    "source": "nvidia/simready-assets/food_produce_mango_a01"
+  },
+  "naan": {
+    "triangles": 7226,
+    "size_m": [
+      0.2205,
+      0.0507,
+      0.2296
+    ],
+    "bytes": 1025588,
+    "source": "nvidia/simready-assets/food_prepared_bread_tandyrNan_a01"
+  },
+  "bowl_white": {
+    "triangles": 5360,
+    "size_m": [
+      0.1299,
+      0.06,
+      0.1299
+    ],
+    "bytes": 314352,
+    "source": "nvidia/simready-assets/kitchenware_bowl_b01"
+  },
+  "bowl_terracotta": {
+    "triangles": 8800,
+    "size_m": [
+      0.1467,
+      0.0629,
+      0.1467
+    ],
+    "bytes": 408996,
+    "source": "nvidia/simready-assets/kitchenware_bowl_c01"
+  },
+  "kettle": {
+    "triangles": 53810,
+    "size_m": [
+      0.1828,
+      0.1433,
+      0.2046
+    ],
+    "bytes": 1975020,
+    "source": "nvidia/simready-assets/kitchenware_kettle_c01"
+  },
+  "cup": {
+    "triangles": 6760,
+    "size_m": [
+      0.1188,
+      0.1019,
+      0.0842
+    ],
+    "bytes": 311300,
+    "source": "nvidia/simready-assets/dishware_cup_tea_a01"
+  },
+  "board": {
+    "triangles": 2360,
+    "size_m": [
+      0.0143,
+      0.4,
+      0.2145
+    ],
+    "bytes": 341692,
+    "source": "nvidia/simready-assets/kitchenware_cuttingBoard_a01"
+  }
+}
